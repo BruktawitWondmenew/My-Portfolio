@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my site</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- boxicons link -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="home" class="logo"><span>Bruktawit</span>Wondmenew</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#education">Education</a>
+        <a href="#services">Service</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, It's <span>Bruktawit</span> wondmenew</h1>
+        <h3 class="text-animation">I'm a <span> </span></h3>
+        <p>
+          Welcome to my website! I am a university student studying web design
+          and development. Here you can find information about me, my projects,
+          and my skills.You can also find my CV here.Feel free to explore and
+          reach out if you have any questions or opportunities for
+          collaboration. Thank you for visiting!
+        </p>
+        <div class="social-icon">
+          <a
+            href="https://www.linkedin.com/in/bruktawit-wondmenew-3650b9279?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZMO7udgFTIeFF6a4jbuMgQ%3D%3D"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://brukte123.github.io/cv/"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/brukti.wendmu?igsh=YzljYTk1ODg3Zg=="
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a href="http://t.me/Bruktii"><i class="bx bxl-telegram"></i></a>
+        </div>
+        <div class="btn-group">
+          <a
+            href="my_CV.pdf"
+            name="down"
+            class="btn"
+            download
+            onclick="cvloading();"
+            >Download CV</a
+          >
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="img1.JPG" alt="my profile" />
+      </div>
+    </section>
+    <!-- ----------------Education-------------------- -->
+    <section class="education" id="education">
+      <h2 class="heading">Education</h2>
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">
+            St Gbriel Catolic School/Woliso city(-2016)
+          </div>
+          <div class="timeline-content">
+            <h3>At Primary School</h3>
+            <p>
+              I was a curious and eager learner in elementary classes. I enjoyed
+              exploring new subjects and developing foundational skills in
+              various areas. I participated in extracurricular activities and
+              developed strong relationships with my teachers and classmates. My
+              primary school experience laid the groundwork for my academic
+              journey and instilled in me a love for learning.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Geresu School/Woliso city(-2018)</div>
+          <div class="timeline-content">
+            <h3>At High School</h3>
+            <p>
+              In secondary school, I continued to excel academically and became
+              more involved in extracurricular activities. I discovered my
+              interests and passions, and began to explore potential career
+              paths. I developed critical thinking skills, time management
+              abilities, and a strong work ethic.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Bashewam School/A.A(-2020)</div>
+          <div class="timeline-content">
+            <h3>At preparatory</h3>
+            <p>
+              Preparatory School Status: As I entered preparatory school, I
+              embraced new challenges and opportunities for personal and
+              academic growth. I honed my study skills, expanded my knowledge
+              base, and prepared for the transition to higher education. I
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Bahir Dar University/B/dar(2021-)</div>
+          <div class="timeline-content">
+            <h3>At University</h3>
+            <p>
+              My university years have been a time of exploration, discovery,
+              and growth. I have embraced challenges, overcome obstacles, and
+              continued to push myself to reach new heights. My university
+              experience has been instrumental in shaping my future career path
+              and preparing me for a successful future in the web design
+              industry
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Awaqi online course(2022)</div>
+          <div class="timeline-content">
+            <h3>Graphics Courses</h3>
+            <p>
+              I have completed a comprehensive graphics course training program
+              that has equipped me with the necessary skills and knowledge to
+              excel in the field of graphic design. Throughout the training, I
+              have learned about design principles, color theory and software
+              tools such as Adobe Photoshop, Illustrator, and InDesign.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">online web corse(2022)</div>
+          <div class="timeline-content">
+            <h3>Web Design Courses</h3>
+            <p>
+              I have completed a Website cousre training in online. I have
+              learned about HTML, CSS, JavaScript, responsive design
+              principles,and web development best practices.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------service------------- -->
+    <section class="services" id="services">
+      <h2 class="heading">Services</h2>
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Making Flyers</h4>
+            <p>
+              Need a professional and compelling flyer design for your next
+              project or event? Let's collaborate to create a standout flyer
+              that grabs attention and drives results. Contact me to discuss
+              your design needs and let's bring your ideas to life through
+              captivating flyer designs.
+            </p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Web Developing</h4>
+            <p>
+              Looking to enhance your online presence with a new website or web
+              application? Let's collaborate to bring your vision to life
+              through custom web development solutions. Feel free to reach out
+              to discuss your project requirements and explore how I can help
+              you achieve your web development goals.
+            </p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Bussiness Cards</h4>
+            <p>
+              Ability to translate brand identity and values into visually
+              compelling business card designs. Knowledge of printing techniques
+              and finishes to ensure high-quality print outcomes
+            </p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Logo Designing</h4>
+            <p>
+              My logo design process is centered around collaboration,
+              creativity, and attention to detail. I work closely with clients
+              to understand their requirements, vision, and brand values. From
+              initial concept development to final delivery, each step of the
+              design process is carefully crafted to ensure a logo that not only
+              looks great but also communicates the essence of the brand
+              effectively
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------------Contact--------------------- -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form
+        action="mailto:bruktics@gmail.com"
+        method="post"
+        enctype="text/plain"
+        onsubmit="checking()"
+        ;
+      >
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text" placeholder="Full Name" required />
+            <input type="email" placeholder="Email" required />
+          </div>
+          <div class="input-box">
+            <input type="number" maxlength="10" placeholder="Phone Number" />
+            <input type="text" placeholder="subject" />
+          </div>
+        </div>
+        <div class="input-group-2">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+          <label id="sss"></label>
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="social">
+        <a
+          href="https://www.linkedin.com/in/bruktawit-wondmenew-3650b9279?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZMO7udgFTIeFF6a4jbuMgQ%3D%3D"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://brukte123.github.io/cv/"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a href="https://www.instagram.com/brukti.wendmu?igsh=YzljYTk1ODg3Zg=="
+          ><i class="bx bxl-instagram-alt"></i
+        ></a>
+        <a href="http://t.me/Bruktii"><i class="bx bxl-telegram"></i></a>
+      </div>
+      <ul class="list">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#services">Services</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+        <li>
+          <a href="#education">Education</a>
+        </li>
+      </ul>
+      <p class="copyright">
+        &copy; Brookti |All Right Reserved <br />Made with<i
+          class="bx bxs-heart"
+        ></i>
+        by Bruktawit Wondmenew
+      </p>
+    </footer>
+    <script type="text/javascript" src="script.js" defer></script>
+  </body>
+</html>
